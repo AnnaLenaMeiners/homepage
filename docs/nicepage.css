@@ -38768,6 +38768,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -38776,6 +38777,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-1 {
   font-family: Cantarell;
+  font-size: 1.25rem;
   margin: -31px auto 28px 0;
 }
 
@@ -38789,24 +38791,22 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-
   .u-header .u-text-1 {
     margin-top: -31px;
-    font-size: 1.25rem;
   }
 }
 
 
 
- .u-footer {
-  background-image: none;
+.u-footer .u-sheet-1 {
+  min-height: 160px;
 }
 
-.u-footer .u-sheet-1 {
-  min-height: 120px;
+.u-footer .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  margin: 28px auto 0;
+  padding: 0;
 }
 
 .u-footer .u-social-icons-1 {
@@ -38814,7 +38814,7 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 211px;
   min-width: 160px;
-  margin: 25px 0 0 auto;
+  margin: 18px auto 0;
 }
 
 .u-footer .u-icon-1 {
@@ -38838,28 +38838,47 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: -25px auto 0;
+  font-size: 0.875rem;
+  width: 631px;
+  margin: 18px auto;
 }
 
-.u-footer .u-btn-1 {
-  background-image: none;
-  border-style: solid;
-  font-size: 0.875rem;
-  margin: -22px auto 60px 0;
-  padding: 0;
-}
-@media (max-width: 1199px) {
-  .u-footer .u-text-1 {
-    margin-top: -11px;
+@media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 161px;
   }
 
   .u-footer .u-btn-1 {
-    margin-top: -36px;
+    margin-top: 20px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 20px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 24px;
+    margin-bottom: 18px;
   }
 }
+@media (max-width: 767px) {
+  .u-footer .u-sheet-1 {
+    min-height: 188px;
+  }
 
+  .u-footer .u-btn-1 {
+    margin-top: 34px;
+  }
 
+  .u-footer .u-social-icons-1 {
+    margin-top: 24px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 540px;
+    margin-top: 34px;
+  }
+}
 @media (max-width: 575px) {
   .u-footer .u-text-1 {
     width: 340px;
