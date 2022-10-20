@@ -22787,7 +22787,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Arial,sans-serif;
 }
 h1,
 h2,
@@ -22795,7 +22795,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat,sans-serif;
+  font-family: Arial,sans-serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -22816,10 +22816,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Arial,sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Montserrat,sans-serif !important;
+  font-family: Arial,sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -38290,6 +38290,9 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -38385,10 +38388,11 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 1.25rem;
         line-height: 1.8;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
-        font-family: 'PT Sans',sans-serif;
+        font-family: Arial,sans-serif;
         }
         .u-btn
         {
@@ -38502,6 +38506,13 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p:not(.u-text-variant),
+        .u-gradient > .u-container-layout > p:not(.u-text-variant),
+        .u-image:not(.u-shading) > .u-container-layout > p:not(.u-text-variant),
+        p:not(.u-text-variant)
+        {
+        color: #6e8898;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
@@ -38558,6 +38569,10 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
+        .u-custom-color-1 p:not(.u-text-variant),.u-custom-color-2 p:not(.u-text-variant),.u-body-color p:not(.u-text-variant),.u-palette-1-base p:not(.u-text-variant),.u-palette-1-dark-3 p:not(.u-text-variant),.u-palette-1-dark-2 p:not(.u-text-variant),.u-palette-1-dark-1 p:not(.u-text-variant),.u-palette-1 p:not(.u-text-variant),.u-palette-2-base p:not(.u-text-variant),.u-palette-2-dark-3 p:not(.u-text-variant),.u-palette-2-dark-2 p:not(.u-text-variant),.u-palette-2-dark-1 p:not(.u-text-variant),.u-palette-2 p:not(.u-text-variant),.u-palette-3-base p:not(.u-text-variant),.u-palette-3-dark-3 p:not(.u-text-variant),.u-palette-3-dark-2 p:not(.u-text-variant),.u-palette-3-dark-1 p:not(.u-text-variant),.u-palette-3 p:not(.u-text-variant),.u-palette-3-light-1 p:not(.u-text-variant),.u-palette-4-dark-3 p:not(.u-text-variant),.u-palette-4-dark-2 p:not(.u-text-variant),.u-palette-4-dark-1 p:not(.u-text-variant),.u-palette-4 p:not(.u-text-variant),.u-palette-5-dark-3 p:not(.u-text-variant),.u-palette-5-dark-2 p:not(.u-text-variant),.u-palette-5-dark-1 p:not(.u-text-variant),.u-palette-5 p:not(.u-text-variant),.u-palette-5-light-1 p:not(.u-text-variant),.u-grey-40 p:not(.u-text-variant),.u-grey-30 p:not(.u-text-variant),.u-grey-90 p:not(.u-text-variant),.u-grey-80 p:not(.u-text-variant),.u-grey-75 p:not(.u-text-variant),.u-black p:not(.u-text-variant),.u-grey-70 p:not(.u-text-variant),.u-grey-60 p:not(.u-text-variant),.u-grey-50 p:not(.u-text-variant),.u-grey-dark-3 p:not(.u-text-variant),.u-grey-dark-2 p:not(.u-text-variant),.u-grey-dark-1 p:not(.u-text-variant),.u-grey p:not(.u-text-variant),.u-shading p:not(.u-text-variant),.u-overlap-contrast .u-header p:not(.u-text-variant):not(.u-nav-link):not(.u-btn)
+        {
+        color: #ffffff;
+        }
         .u-custom-color-1 a,.u-custom-color-2 a,.u-body-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-3-base a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-3 a,.u-palette-3-light-1 a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-4 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-palette-5 a,.u-palette-5-light-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
         {
         color: #c3dcea;
@@ -38607,8 +38622,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-1 {
-  background-image: none;
-  font-size: 1.25rem;
   margin: -31px auto 28px 0;
 }
 @media (max-width: 1199px) {
@@ -38622,6 +38635,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     margin-top: -31px;
+    font-size: 1.25rem;
   }
 }
 
@@ -38635,37 +38649,58 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 120px;
 }
 
+.u-footer .u-social-icons-1 {
+  height: 26px;
+  min-height: 16px;
+  width: 211px;
+  min-width: 160px;
+  margin: 47px 0 0 auto;
+}
+
+.u-footer .u-icon-1 {
+  height: 60px;
+}
+
+.u-footer .u-icon-2 {
+  height: 60px;
+}
+
+.u-footer .u-icon-3 {
+  height: 60px;
+}
+
+.u-footer .u-icon-4 {
+  height: 100%;
+}
+
+.u-footer .u-icon-5 {
+  height: 60px;
+}
+
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+  margin: -24px 723px 49px 0;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-top: -11px;
+    margin-right: 523px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
+  .u-footer .u-text-1 {
+    margin-right: 303px;
   }
 }
 @media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 142px;
-  }
-
   .u-footer .u-text-1 {
-    margin-top: 38px;
-    margin-bottom: 60px;
+    margin-right: 123px;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
-
   .u-footer .u-text-1 {
     width: 340px;
+    margin-right: 0;
   }
 }
 
