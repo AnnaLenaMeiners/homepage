@@ -23,7 +23,6 @@
 .u-section-1 .u-image-1 {
   width: 255px;
   height: 255px;
-  background-image: url("images/portrait.jpeg");
   background-position: 50% 50%;
   margin: 73px auto 0;
 }
@@ -198,7 +197,6 @@
 
 .u-section-3 .u-image-1 {
   min-height: 655px;
-  background-image: url("images/brandi-redd-aJTiW00qqtI-unsplash.jpg");
   background-position: 50% 50%;
 }
 
