@@ -16,4 +16,14 @@
     margin-top: 60px;
     margin-bottom: 60px;
   }
+}@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}@font-face {
+  font-family: 'OpenSans-VariableFont_wdthwght';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/OpenSans-VariableFont_wdthwght.ttf);
 }
